@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prickly_dance_pants",
+    "name": "Prickly Dance Pants",
+    "slot": "Bottoms",
+    "type": "gear_blueprint",
+    "effect_text": "Bounce can hit allies without causing damage and automatically reloads 1 bullet on hit.",
+    "stats": {
+      "reload_on_bounce_hit": 1,
+      "ally_safe_bounce": true
+    },
+    "source_refs": [
+      "official-devblog-2024-11-23-bounce-rework"
+    ]
+  },
+  {
+    "id": "hot_dog_shorts",
+    "name": "Hot Dog Shorts",
+    "slot": "Bottoms",
+    "type": "gear_blueprint",
+    "effect_text": "Bounces +2",
+    "stats": {
+      "bounce_count_bonus": 2
+    },
+    "source_refs": [
+      "official-devblog-2024-11-23-bounce-rework"
+    ]
+  },
+  {
+    "id": "sharp_blade_pants",
+    "name": "Sharp Blade Pants",
+    "slot": "Bottoms",
+    "type": "gear_blueprint",
+    "effect_text": "Bounce trigger count +1",
+    "stats": {
+      "bounce_trigger_count_bonus": 1
+    },
+    "source_refs": [
+      "official-devblog-2024-11-23-bounce-rework"
+    ]
+  }
+]

@@ -1,0 +1,433 @@
+[
+  {
+    "id": "acs12_corrosion",
+    "name": "ACS12 - Corrosion",
+    "weapon_class": "shotgun",
+    "blueprint_name": "Corrosion",
+    "keywords": [
+      "Fortress Warfare"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "acs12_pyroclasm_starter",
+    "name": "ACS12 - Pyroclasm Starter",
+    "weapon_class": "shotgun",
+    "blueprint_name": "Pyroclasm Starter",
+    "keywords": [
+      "Burn"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "aws_338_bullseye",
+    "name": "AWS.338 - Bullseye",
+    "weapon_class": "sniper_rifle",
+    "blueprint_name": "Bullseye",
+    "keywords": [
+      "The Bull's Eye"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "compound_bow",
+    "name": "Compound Bow",
+    "weapon_class": "bow",
+    "blueprint_name": "Compound Bow",
+    "keywords": [],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "critical_pulse",
+    "name": "Critical Pulse",
+    "weapon_class": "unknown",
+    "blueprint_name": "Critical Pulse",
+    "keywords": [
+      "Crit"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; class needs verification from a source with item detail."
+  },
+  {
+    "id": "db12_raining_cash",
+    "name": "DB12 - Raining Cash",
+    "weapon_class": "shotgun",
+    "blueprint_name": "Raining Cash",
+    "keywords": [
+      "Shrapnel"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "dbsg_doombringer",
+    "name": "DBSG - Doombringer",
+    "weapon_class": "shotgun",
+    "blueprint_name": "Doombringer",
+    "keywords": [
+      "Burn"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "de50_jaws",
+    "name": "DE.50 - Jaws",
+    "weapon_class": "pistol",
+    "blueprint_name": "Jaws",
+    "keywords": [
+      "Unstable Bomber"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "g17_hazardous_object",
+    "name": "G17 - Hazardous Object",
+    "weapon_class": "pistol",
+    "blueprint_name": "Hazardous Object",
+    "keywords": [],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "hamr_brahminy",
+    "name": "HAMR - Brahminy",
+    "weapon_class": "assault_rifle",
+    "blueprint_name": "Brahminy",
+    "keywords": [
+      "Bounce"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list",
+      "official-devblog-2024-11-23-bounce-rework"
+    ],
+    "notes": "Bounce-related blueprint. Official devblog lists updated Bounce behavior."
+  },
+  {
+    "id": "kam_abyss_glance",
+    "name": "KAM - Abyss Glance",
+    "weapon_class": "assault_rifle",
+    "blueprint_name": "Abyss Glance",
+    "keywords": [],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "kv_sbr_little_jaws",
+    "name": "KV-SBR - Little Jaws",
+    "weapon_class": "smg",
+    "blueprint_name": "Little Jaws",
+    "keywords": [
+      "Unstable Bomber"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "kvd_boom_boom",
+    "name": "KVD - Boom! Boom!",
+    "weapon_class": "assault_rifle",
+    "blueprint_name": "Boom! Boom!",
+    "keywords": [
+      "Bounce"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "m416_silent_anabasis",
+    "name": "M416 - Silent Anabasis",
+    "weapon_class": "assault_rifle",
+    "blueprint_name": "Silent Anabasis",
+    "keywords": [],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "mg4_conflicting_memories",
+    "name": "MG4 - Conflicting Memories",
+    "weapon_class": "lmg",
+    "blueprint_name": "Conflicting Memories",
+    "keywords": [
+      "Bounce"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "mg4_predator",
+    "name": "MG4 - Predator",
+    "weapon_class": "lmg",
+    "blueprint_name": "Predator",
+    "keywords": [
+      "Fast Gunner"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "mps5_kumawink",
+    "name": "MPS5 - Kumawink",
+    "weapon_class": "smg",
+    "blueprint_name": "Kumawink",
+    "keywords": [
+      "Burn"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "mps5_primal_rage",
+    "name": "MPS5 - Primal Rage",
+    "weapon_class": "smg",
+    "blueprint_name": "Primal Rage",
+    "keywords": [
+      "Power Surge"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "mps7_outer_space",
+    "name": "MPS7 - Outer Space",
+    "weapon_class": "smg",
+    "blueprint_name": "Outer Space",
+    "keywords": [
+      "Frost Vortex"
+    ],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  },
+  {
+    "id": "r500_memento",
+    "name": "R500 - Memento",
+    "weapon_class": "pistol",
+    "blueprint_name": "Memento",
+    "keywords": [],
+    "stats": {
+      "base_attack": null,
+      "fire_rate": null,
+      "magazine_size": null,
+      "reload_time": null,
+      "crit_rate": null,
+      "crit_damage": null,
+      "weakspot_damage": null
+    },
+    "source_refs": [
+      "ohdex-weapon-list"
+    ],
+    "notes": "Public name confirmed; exact in-game stats still need verification."
+  }
+]

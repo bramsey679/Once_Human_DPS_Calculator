@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Once Human target profile",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "mode"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

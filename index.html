@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Once Human Build/Damage Calculator</title>
+    <meta name="description" content="A static, open-source Once Human build and damage calculator. No login, no tracking, no executable." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <p class="eyebrow">Static • Open-source • Frontend-only</p>
+        <h1>Once Human Build/Damage Calculator</h1>
+        <p class="lede">
+          A transparent community tool for build planning, target profiles, and relative damage estimates.
+          This starter ships with no login, no backend, no file uploads, and no personal-data collection.
+        </p>
+        <p id="data-status" class="muted"></p>
+      </header>
+
+      <section class="card">
+        <h2>Build inputs</h2>
+        <div class="grid">
+          <label>Patch/version
+            <select id="patch"></select>
+          </label>
+          <label>Weapon
+            <select id="weapon"></select>
+          </label>
+          <label>Star level
+            <select id="star"></select>
+          </label>
+          <label>Tier level
+            <select id="tier"></select>
+          </label>
+          <label>Calibration
+            <select id="calibration"></select>
+          </label>
+          <label>Enemy profile
+            <select id="enemy"></select>
+          </label>
+          <label>Mode
+            <select id="mode">
+              <option value="pve">PvE</option>
+              <option value="pvp">PvP</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Armor slots</h2>
+        <div id="armor-slots" class="stack"></div>
+      </section>
+
+      <section class="card">
+        <h2>Mods and cradle perks</h2>
+        <div id="mods" class="stack"></div>
+      </section>
+
+      <section class="card results">
+        <div>
+          <h2>Output</h2>
+          <p class="muted">This starter UI is ready for the real combat model to be wired in.</p>
+        </div>
+        <div class="result-box">
+          <p class="label">Relative damage score</p>
+          <p id="score" class="score">0.0</p>
+          <p id="summary" class="summary">Select inputs to see a placeholder result.</p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Privacy: no login, no tracking, no uploads, no executable.</p>
+        <p>Replace the placeholder math in <code>app.js</code> with verified Once Human data.</p>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

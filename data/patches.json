@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2024-11-23-bounce-rework",
+    "label": "2024-11-23 / Bounce rework & weapon build balance",
+    "released_at": "2024-11-23",
+    "source_ref": "official-devblog-2024-11-23-bounce-rework",
+    "status": "active",
+    "notes": [
+      "Bounce keyword reworked to deal 40% of Attack per bounce in the official announcement.",
+      "Weapon blueprint changes and mod/cradle updates were previewed as not-final values."
+    ],
+    "damage_multiplier": 1.0
+  },
+  {
+    "id": "2025-06-17-balance-adjustments",
+    "label": "2025-06-17 / Balance adjustments & Starfall Inversion",
+    "released_at": "2025-06-17",
+    "source_ref": "official-update-2025-06-17-balance-adjustments",
+    "status": "active",
+    "notes": [
+      "Patch notes emphasize weakspot and status/weapon damage balance changes.",
+      "Use as a version boundary for formula branches and loadout comparisons."
+    ],
+    "damage_multiplier": 1.0
+  },
+  {
+    "id": "2026-01-21-v2-3-1",
+    "label": "Version 2.3.1 / Mod revamp",
+    "released_at": "2026-01-21",
+    "source_ref": "official-update-2026-01-21-v231",
+    "status": "active",
+    "notes": [
+      "Official announcement mentions mod revamps and new content.",
+      "Treat this as a patch/version selector boundary."
+    ],
+    "damage_multiplier": 1.0
+  }
+]

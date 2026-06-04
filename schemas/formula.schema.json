@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Once Human formula profile",
+  "type": "object",
+  "required": [
+    "id",
+    "scope",
+    "layers"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "patch_ref": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "known_constants": {
+      "type": "array"
+    },
+    "layers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Once Human armor record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "slot",
+    "type",
+    "effect_text",
+    "source_refs"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "slot": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "effect_text": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "object"
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

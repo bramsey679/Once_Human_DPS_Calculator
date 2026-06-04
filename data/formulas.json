@@ -1,0 +1,56 @@
+[
+  {
+    "id": "damage_core_v1",
+    "patch_ref": "2024-11-23-bounce-rework",
+    "scope": [
+      "weapon",
+      "crit",
+      "weakspot",
+      "mitigation"
+    ],
+    "known_constants": [
+      {
+        "name": "bounce_base_multiplier",
+        "value": 0.4,
+        "source_ref": "official-devblog-2024-11-23-bounce-rework",
+        "notes": "Official preview states each bounce deals Weapon DMG equal to 40% of Attack."
+      }
+    ],
+    "layers": [
+      "base_attack_or_weapon_damage",
+      "flat_additions",
+      "percent_additions",
+      "crit_branch",
+      "weakspot_branch",
+      "target_mitigation",
+      "mode_specific_reduction",
+      "keyword_overrides"
+    ],
+    "notes": [
+      "This is intentionally table-driven because Once Human changes combat wording and stacking behavior by patch.",
+      "Do not collapse everything into one universal formula until edge cases are verified in game."
+    ]
+  },
+  {
+    "id": "status_damage_v1",
+    "patch_ref": "2025-06-17-balance-adjustments",
+    "scope": [
+      "status",
+      "weapon_damage",
+      "weakspot",
+      "crit"
+    ],
+    "layers": [
+      "status_damage_base",
+      "weapon_damage_contribution",
+      "crit_branch_if_enabled",
+      "weakspot_branch_if_enabled",
+      "target_resistance",
+      "mode_specific_reduction"
+    ],
+    "notes": [
+      "Use when a patch or item explicitly shifts damage from Weapon DMG to Status DMG.",
+      "Keep this separate from direct weapon-hit formulas."
+    ]
+  }
+]

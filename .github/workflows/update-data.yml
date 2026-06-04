@@ -1,0 +1,40 @@
+name: Refresh Once Human data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * 1'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh source snapshots
+        run: node scripts/update-data.mjs
+
+      - name: Validate normalized data
+        run: node scripts/validate-data.mjs
+
+      - name: Create pull request if data changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore(data): refresh Once Human source snapshots'
+          title: 'chore(data): refresh Once Human source snapshots'
+          body: |
+            Automated refresh of Once Human source snapshots and validation.
+
+            This PR is intentionally review-first. Item stats and combat formulas still require human verification when they change.
+          branch: automation/refresh-once-human-data
+          delete-branch: true

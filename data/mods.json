@@ -1,0 +1,342 @@
+[
+  {
+    "id": "blaze_amplifier_iv",
+    "name": "Blaze Amplifier",
+    "tier": "IV",
+    "slot": "Mask",
+    "category": "Burn",
+    "effect_text": "Every stack of Burn grants +2.5% Psi Intensity DMG.",
+    "stats": {
+      "psi_intensity_damage_per_burn_stack": 0.025
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "blaze_amplifier_v",
+    "name": "Blaze Amplifier",
+    "tier": "V",
+    "slot": "Mask",
+    "category": "Burn",
+    "effect_text": "Every stack of Burn grants +3% Psi Intensity DMG.",
+    "stats": {
+      "psi_intensity_damage_per_burn_stack": 0.03
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "blaze_blessing_iv",
+    "name": "Blaze Blessing",
+    "tier": "IV",
+    "slot": "All Weapons",
+    "category": "Burn",
+    "effect_text": "When defeating an enemy affected by Burn, recover 5% HP.",
+    "stats": {
+      "heal_on_burn_kill_pct": 0.05
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "blaze_blessing_v",
+    "name": "Blaze Blessing",
+    "tier": "V",
+    "slot": "All Weapons",
+    "category": "Burn",
+    "effect_text": "TBA",
+    "stats": {},
+    "source_refs": [
+      "game8-mod-list"
+    ],
+    "notes": "Game8 currently lists this as TBA."
+  },
+  {
+    "id": "blitzkrieg_iv",
+    "name": "Blitzkrieg",
+    "tier": "IV",
+    "slot": "Mask",
+    "category": "Fast Gunner",
+    "effect_text": "Fast Gunner stacks +4 and additional Fire Rate +0.8% for each stack.",
+    "stats": {
+      "fast_gunner_stack_bonus": 4,
+      "fire_rate_per_stack": 0.008
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "blitzkrieg_v",
+    "name": "Blitzkrieg",
+    "tier": "V",
+    "slot": "Mask",
+    "category": "Fast Gunner",
+    "effect_text": "Fast Gunner stacks +5 and additional Fire Rate +1% for each stack.",
+    "stats": {
+      "fast_gunner_stack_bonus": 5,
+      "fire_rate_per_stack": 0.01
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "bombardier_souvenir_v",
+    "name": "Bombardier Souvenir",
+    "tier": "V",
+    "slot": "All Weapons",
+    "category": "Unstable Bomber",
+    "effect_text": "When triggering Unstable Bomber, automatically refill 10% of your magazine.",
+    "stats": {
+      "magazine_refill_on_trigger_pct": 0.1
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "bounce_rampage_v",
+    "name": "Bounce Rampage",
+    "tier": "V",
+    "slot": "All Weapons",
+    "category": "Bounce",
+    "effect_text": "Bounce deals more DMG as more targets are hit, up to DMG +45%",
+    "stats": {
+      "max_bonus_pct": 0.45,
+      "per_target_pct": 0.15
+    },
+    "source_refs": [
+      "game8-mod-list",
+      "official-devblog-2024-11-23-bounce-rework"
+    ]
+  },
+  {
+    "id": "bullet_siphon_iv",
+    "name": "Bullet Siphon",
+    "tier": "IV",
+    "slot": "Bottoms",
+    "category": "Weapon",
+    "effect_text": "Every 5 bullets consumed in the magazine grants +4% Weapon DMG, capped at 20%.",
+    "stats": {
+      "weapon_damage_per_five_bullets_pct": 0.04,
+      "cap_pct": 0.2
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "bullet_siphon_v",
+    "name": "Bullet Siphon",
+    "tier": "V",
+    "slot": "Bottoms",
+    "category": "Weapon",
+    "effect_text": "Weapon DMG +5%. Every 5 bullets consumed in the magazine grants +4% Weapon DMG, capped at 20%.",
+    "stats": {
+      "flat_weapon_damage_pct": 0.05,
+      "weapon_damage_per_five_bullets_pct": 0.04,
+      "cap_pct": 0.2
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "burning_wrath_v",
+    "name": "Burning Wrath",
+    "tier": "V",
+    "slot": "All Weapons",
+    "category": "Burn",
+    "effect_text": "Triggering Burn has a 25% chance to grant +1 Burn stack(s).",
+    "stats": {
+      "burn_stack_proc_chance": 0.25,
+      "extra_burn_stacks": 1
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "covered_advance_iv",
+    "name": "Covered Advance",
+    "tier": "IV",
+    "slot": "Shoes",
+    "category": "General",
+    "effect_text": "Taking no DMG within 6s grants +16% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+    "stats": {
+      "damage_bonus_pct": 0.16,
+      "no_damage_window_s": 6,
+      "duration_s": 30
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "covered_advance_v",
+    "name": "Covered Advance",
+    "tier": "V",
+    "slot": "Shoes",
+    "category": "General",
+    "effect_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+    "stats": {
+      "damage_bonus_pct": 0.2,
+      "no_damage_window_s": 4,
+      "duration_s": 30
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "cowboy_v",
+    "name": "Cowboy",
+    "tier": "V",
+    "slot": "All Weapons",
+    "category": "Fast Gunner",
+    "effect_text": "After reloading when the magazine is empty, Fast Gunner trigger chance 100% (based on the weapon's Trigger Chance) for 5s. When Fast Gunner reaches max stacks, the duration is increased by 5s.",
+    "stats": {
+      "trigger_chance_multiplier": 1.0,
+      "duration_s": 5,
+      "max_stack_extension_s": 5
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "crit_amplifier_iv",
+    "name": "Crit Amplifier",
+    "tier": "IV",
+    "slot": "Gloves",
+    "category": "Crit",
+    "effect_text": "Crit Rate +5%, Crit DMG +15%",
+    "stats": {
+      "crit_rate_pct": 0.05,
+      "crit_damage_pct": 0.15
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "crit_amplifier_v",
+    "name": "Crit Amplifier",
+    "tier": "V",
+    "slot": "Gloves",
+    "category": "Crit",
+    "effect_text": "Crit Rate +10%, Crit DMG +15%",
+    "stats": {
+      "crit_rate_pct": 0.1,
+      "crit_damage_pct": 0.15
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "crit_boost_i",
+    "name": "Crit Boost",
+    "tier": "I",
+    "slot": "All Weapons",
+    "category": "Crit",
+    "effect_text": "Crit Rate +3.0%",
+    "stats": {
+      "crit_rate_pct": 0.03
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "crit_boost_ii",
+    "name": "Crit Boost",
+    "tier": "II",
+    "slot": "All Weapons",
+    "category": "Crit",
+    "effect_text": "Crit Rate +6.0%",
+    "stats": {
+      "crit_rate_pct": 0.06
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "crit_boost_iii",
+    "name": "Crit Boost",
+    "tier": "III",
+    "slot": "All Weapons",
+    "category": "Crit",
+    "effect_text": "Crit Rate +9.0%",
+    "stats": {
+      "crit_rate_pct": 0.09
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "crit_boost_iv",
+    "name": "Crit Boost",
+    "tier": "IV",
+    "slot": "Gloves",
+    "category": "Crit",
+    "effect_text": "Crit Rate +12.0%",
+    "stats": {
+      "crit_rate_pct": 0.12
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "crit_dmg_enhancement_i",
+    "name": "Crit DMG Enhancement",
+    "tier": "I",
+    "slot": "All Armor",
+    "category": "Crit",
+    "effect_text": "Crit Rate +2.0%, Crit DMG +4.0%",
+    "stats": {
+      "crit_rate_pct": 0.02,
+      "crit_damage_pct": 0.04
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "crit_dmg_enhancement_ii",
+    "name": "Crit DMG Enhancement",
+    "tier": "II",
+    "slot": "All Armor",
+    "category": "Crit",
+    "effect_text": "Crit Rate +2.0%, Crit DMG +8.0%",
+    "stats": {
+      "crit_rate_pct": 0.02,
+      "crit_damage_pct": 0.08
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  },
+  {
+    "id": "crit_dmg_enhancement_iii",
+    "name": "Crit DMG Enhancement",
+    "tier": "III",
+    "slot": "All Armor",
+    "category": "Crit",
+    "effect_text": "Crit Rate +2.0%, Crit DMG +12.0%",
+    "stats": {
+      "crit_rate_pct": 0.02,
+      "crit_damage_pct": 0.12
+    },
+    "source_refs": [
+      "game8-mod-list"
+    ]
+  }
+]

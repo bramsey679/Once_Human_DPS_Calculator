@@ -1,0 +1,83 @@
+[
+  {
+    "id": "official-devblog-2024-11-23-bounce-rework",
+    "name": "Developer's Co-Dev Update | Major Balance Adjustments to Weapon Builds!",
+    "kind": "official",
+    "url": "https://www.oncehuman.game/news/devBlog/20241123/40781_1195665.html",
+    "topic": [
+      "bounce",
+      "weapon-build-balance",
+      "mods",
+      "cradle"
+    ],
+    "last_checked": null
+  },
+  {
+    "id": "official-update-2025-06-17-balance-adjustments",
+    "name": "Balance Adjustments and Starfall Inversion Optimizations - June",
+    "kind": "official",
+    "url": "https://www.oncehuman.game/news/update/20250617/40780_1241054.html",
+    "topic": [
+      "balance",
+      "weakspot",
+      "weapon-damage",
+      "status-damage"
+    ],
+    "last_checked": null
+  },
+  {
+    "id": "official-update-2026-01-21-v231",
+    "name": "Version 2.3.1 Update Announcement (January 21)",
+    "kind": "official",
+    "url": "https://www.oncehuman.game/news/update/20260121/40780_1282991.html",
+    "topic": [
+      "mod-revamp",
+      "patch"
+    ],
+    "last_checked": null
+  },
+  {
+    "id": "ohdex-weapon-list",
+    "name": "OhDex Weapon List",
+    "kind": "community",
+    "url": "https://ohdex.gg/weapon-list",
+    "topic": [
+      "weapon-names",
+      "blueprints"
+    ],
+    "last_checked": null
+  },
+  {
+    "id": "ohdex-mod-list",
+    "name": "OhDex Mod List",
+    "kind": "community",
+    "url": "https://ohdex.gg/mod-list",
+    "topic": [
+      "mod-names",
+      "builds"
+    ],
+    "last_checked": null
+  },
+  {
+    "id": "game8-mod-list",
+    "name": "Game8 All Mods List and Guide",
+    "kind": "community",
+    "url": "https://game8.co/games/Once-Human/archives/460076",
+    "topic": [
+      "mod-effects",
+      "slots",
+      "tiers"
+    ],
+    "last_checked": null
+  },
+  {
+    "id": "game8-all-armor-mods",
+    "name": "Game8 List of All Armor Mods",
+    "kind": "community",
+    "url": "https://game8.co/games/Once-Human/archives/468372",
+    "topic": [
+      "armor-mod-effects"
+    ],
+    "last_checked": null
+  }
+]

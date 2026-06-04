@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Once Human patch record",
+  "type": "object",
+  "required": [
+    "id",
+    "label",
+    "released_at",
+    "source_ref"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "released_at": {
+      "type": "string"
+    },
+    "source_ref": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "damage_multiplier": {
+      "type": "number"
+    }
+  },
+  "additionalProperties": true
+}

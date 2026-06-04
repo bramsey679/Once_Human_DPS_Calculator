@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Once Human weapon record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "weapon_class",
+    "blueprint_name",
+    "stats",
+    "source_refs"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "weapon_class": {
+      "type": "string"
+    },
+    "blueprint_name": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stats": {
+      "type": "object"
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

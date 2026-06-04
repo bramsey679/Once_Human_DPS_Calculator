@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Once Human source record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "kind",
+    "url"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_checked": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

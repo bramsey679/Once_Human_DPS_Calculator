@@ -1,0 +1,20 @@
+[
+  {
+    "id": "bounce_rampage_cradle",
+    "name": "Bounce Rampage",
+    "trigger": "land_bounced_shot",
+    "effect_text": "After landing a bounced shot, Bounce DMG +5% for 15s. Up to 5 stacks.",
+    "stats": {
+      "bounce_damage_per_stack_pct": 0.05,
+      "duration_s": 15,
+      "stack_cap": 5
+    },
+    "mode": [
+      "pve",
+      "pvp"
+    ],
+    "source_refs": [
+      "official-devblog-2024-11-23-bounce-rework"
+    ]
+  }
+]
