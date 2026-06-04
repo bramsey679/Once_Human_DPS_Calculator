@@ -61,15 +61,6 @@ This repo now includes a basic update pipeline:
 
 That means the project can update itself automatically where possible, while still forcing human review for combat math.
 
-## Suggested free hosting
-
-Best low-cost options:
-
-1. **GitHub Pages** — simplest if you want the code public beside the live site.
-2. **Cloudflare Pages** — also free and good for static sites.
-
-If your goal is community trust, start with GitHub Pages because the source and the site naturally live together in public view.
-
 ## Suggested file structure
 
 - `index.html` — UI
